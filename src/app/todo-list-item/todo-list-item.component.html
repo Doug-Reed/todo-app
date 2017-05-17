@@ -1,0 +1,5 @@
+<div class="view">
+  <input type="checkbox" [(ngModel)]="toggleComplete">
+  <label>{{todo.title}}</label>
+  <button class="destroy" (click)="removeTodo(todo)"></button>
+</div>
